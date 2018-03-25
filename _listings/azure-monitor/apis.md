@@ -14,12 +14,12 @@ tags:
 - Monitoring
 - Microsoft
 - Cloud
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-25"
+modified: "2018-03-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Azure Activity Log API
+- name: Azure Autoscale API
   description: Autoscale is a built-in feature of Cloud Services, Mobile Services,
     Virtual Machines, and Websites that helps applications perform their best when
     demand changes
@@ -33,7 +33,7 @@ apis:
   - Cloud
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-activitylogalerts-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-autoscalesettings-autoscalesettingname-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics
