@@ -1,39 +1,162 @@
 ---
 name: Azure Monitor
+x-slug: azure-monitor
 description: Autoscale is a built-in feature of Cloud Services, Mobile Services, Virtual
   Machines, and Websites that helps applications perform their best when demand changes.
   Of course, performance means different things for different applications. Some apps
   are CPU-bound, others memory-bound. For example, you could have a web app that handles
   millions of requests during the day and none at night. Autoscale can scale your
-  service by any of thesemdash;or by a custom metric you define.
+  service by any of these&mdash;or by a custom metric you define.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Monitoring
-- Microsoft
-- Cloud
-created: "2018-03-25"
-modified: "2018-03-25"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/apis.yaml
+tags: Azure Monitor
+created: "2018-05-21"
+modified: "2018-05-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Autoscale API
-  description: Autoscale is a built-in feature of Cloud Services, Mobile Services,
-    Virtual Machines, and Websites that helps applications perform their best when
-    demand changes
+- name: Azure Activity Log API Activity Log Alerts Create Or Update
+  x-api-slug: azure-activity-log-api
+  description: Create a new activity log alert or update an existing one.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
-  tags:
-  - Stack Network
-  - Monitoring
-  - Microsoft
-  - Cloud
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/activityLogAlerts/{activityLogAlertName}
+  tags: Activity Log Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-autoscalesettings-autoscalesettingname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-put-openapi.md
+- name: Azure Activity Log API Activity Log Alerts Get
+  x-api-slug: azure-activity-log-api
+  description: Get an activity log alert.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/activityLogAlerts/{activityLogAlertName}
+  tags: Activity Log Alerts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-get-openapi.md
+- name: Azure Activity Log API Activity Log Alerts Delete
+  x-api-slug: azure-activity-log-api
+  description: Delete an activity log alert.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/activityLogAlerts/{activityLogAlertName}
+  tags: Activity Log Alerts
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-delete-openapi.md
+- name: Azure Activity Log API Activity Log Alerts Update
+  x-api-slug: azure-activity-log-api
+  description: Updates an existing ActivityLogAlertResource's tags. To update other
+    fields use the CreateOrUpdate method.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/activityLogAlerts/{activityLogAlertName}
+  tags: Activity Log Alerts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-patch-openapi.md
+- name: Azure Activity Log API Activity Log Alerts List By Subscription Id
+  x-api-slug: azure-activity-log-api
+  description: Get a list of all activity log alerts in a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/microsoft.insights/activityLogAlerts
+  tags: Activity Log Alerts Subscription Id
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidprovidersmicrosoftinsightsactivitylogalerts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidprovidersmicrosoftinsightsactivitylogalerts-get-openapi.md
+- name: Azure Activity Log API Activity Log Alerts List By Resource Group
+  x-api-slug: azure-activity-log-api
+  description: Get a list of all activity log alerts in a resource group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/activityLogAlerts
+  tags: Activity Log Alerts Resource Group
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalerts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalerts-get-openapi.md
+- name: Azure Activity Log API
+  x-api-slug: azure-activity-log-api
+  description: Autoscale is a built-in feature of Cloud Services, Mobile Services,
+    Virtual Machines, and Websites that helps applications perform their best when
+    demand changes. Of course, performance means different things for different applications.
+    Some apps are CPU-bound, others memory-bound. For example, you could have a web
+    app that handles millions of requests during the day and none at night. Autoscale
+    can scale your service by any of these&mdash;or by a custom metric you define.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com//
+  tags: Azure Monitor
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/openapi.md
+- name: Azure Autoscale API Autoscale Settings List By Resource Group
+  x-api-slug: azure-autoscale-api
+  description: Lists the autoscale settings for a resource group
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/microsoft.insights/autoscalesettings
+  tags: Autoscaletings Resource Group
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettings-get-openapi.md
+- name: Azure Autoscale API Autoscale Settings Create Or Update
+  x-api-slug: azure-autoscale-api
+  description: Creates or updates an autoscale setting.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/microsoft.insights/autoscalesettings/{autoscaleSettingName}
+  tags: Autoscaletings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettingsautoscalesettingname-put-openapi.md
+- name: Azure Autoscale API Autoscale Settings Delete
+  x-api-slug: azure-autoscale-api
+  description: Deletes and autoscale setting
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/microsoft.insights/autoscalesettings/{autoscaleSettingName}
+  tags: Autoscaletings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettingsautoscalesettingname-delete-openapi.md
+- name: Azure Autoscale API Autoscale Settings Get
+  x-api-slug: azure-autoscale-api
+  description: Gets an autoscale setting
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/microsoft.insights/autoscalesettings/{autoscaleSettingName}
+  tags: Autoscaletings
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettingsautoscalesettingname-get-openapi.md
+- name: Azure Autoscale API
+  x-api-slug: azure-autoscale-api
+  description: Autoscale is a built-in feature of Cloud Services, Mobile Services,
+    Virtual Machines, and Websites that helps applications perform their best when
+    demand changes. Of course, performance means different things for different applications.
+    Some apps are CPU-bound, others memory-bound. For example, you could have a web
+    app that handles millions of requests during the day and none at night. Autoscale
+    can scale your service by any of these&mdash;or by a custom metric you define.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/manage-monitoring-data.png
+  humanURL: https://azure.microsoft.com/en-us/services/monitor/
+  baseURL: ://management.azure.com//
+  tags: Azure Monitor
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/openapi.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics
