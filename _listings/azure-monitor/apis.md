@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Monitor
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Activity Log Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalertsactivitylogalertname-put-openapi.md
 - name: Azure Activity Log API Activity Log Alerts Get
   x-api-slug: azure-activity-log-api
   description: Get an activity log alert.
@@ -35,9 +35,9 @@ apis:
   tags: Activity Log Alerts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalertsactivitylogalertname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalertsactivitylogalertname-get-openapi.md
 - name: Azure Activity Log API Activity Log Alerts Delete
   x-api-slug: azure-activity-log-api
   description: Delete an activity log alert.
@@ -47,9 +47,9 @@ apis:
   tags: Activity Log Alerts
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalertsactivitylogalertname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalertsactivitylogalertname-delete-openapi.md
 - name: Azure Activity Log API Activity Log Alerts Update
   x-api-slug: azure-activity-log-api
   description: Updates an existing ActivityLogAlertResource's tags. To update other
@@ -60,7 +60,7 @@ apis:
   tags: Activity Log Alerts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalertsactivitylogalertname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalertsactivitylogalertname-patch-openapi.md
 - name: Azure Activity Log API Activity Log Alerts List By Subscription Id
   x-api-slug: azure-activity-log-api
   description: Get a list of all activity log alerts in a subscription.
@@ -70,9 +70,9 @@ apis:
   tags: Activity Log Alerts Subscription Id
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidprovidersmicrosoftinsightsactivitylogalerts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidprovidersmicrosoft-insightsactivitylogalerts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidprovidersmicrosoftinsightsactivitylogalerts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidprovidersmicrosoft-insightsactivitylogalerts-get-openapi.md
 - name: Azure Activity Log API Activity Log Alerts List By Resource Group
   x-api-slug: azure-activity-log-api
   description: Get a list of all activity log alerts in a resource group.
@@ -82,9 +82,9 @@ apis:
   tags: Activity Log Alerts Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalerts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalerts-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsactivitylogalerts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsactivitylogalerts-get-openapi.md
 - name: Azure Activity Log API
   x-api-slug: azure-activity-log-api
   description: Autoscale is a built-in feature of Cloud Services, Mobile Services,
@@ -109,9 +109,9 @@ apis:
   tags: Autoscaletings Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettings-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettings-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettings-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettings-get-openapi.md
 - name: Azure Autoscale API Autoscale Settings Create Or Update
   x-api-slug: azure-autoscale-api
   description: Creates or updates an autoscale setting.
@@ -121,7 +121,7 @@ apis:
   tags: Autoscaletings
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettingsautoscalesettingname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettingsautoscalesettingname-put-openapi.md
 - name: Azure Autoscale API Autoscale Settings Delete
   x-api-slug: azure-autoscale-api
   description: Deletes and autoscale setting
@@ -131,7 +131,7 @@ apis:
   tags: Autoscaletings
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettingsautoscalesettingname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettingsautoscalesettingname-delete-openapi.md
 - name: Azure Autoscale API Autoscale Settings Get
   x-api-slug: azure-autoscale-api
   description: Gets an autoscale setting
@@ -141,7 +141,7 @@ apis:
   tags: Autoscaletings
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightsautoscalesettingsautoscalesettingname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-monitor/master/_listings/azure-monitor/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettingsautoscalesettingname-get-openapi.md
 - name: Azure Autoscale API
   x-api-slug: azure-autoscale-api
   description: Autoscale is a built-in feature of Cloud Services, Mobile Services,

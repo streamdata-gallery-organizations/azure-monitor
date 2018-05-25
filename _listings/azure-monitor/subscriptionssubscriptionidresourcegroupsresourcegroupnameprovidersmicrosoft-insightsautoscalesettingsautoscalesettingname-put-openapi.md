@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Monitor
-x-complete: 1
+x-complete: 0
 info:
-  title: MonitorManagementClient
+  title: Azure Autoscale API Autoscale Settings Create Or Update
   version: 1.0.0
+  description: Creates or updates an autoscale setting.
 host: management.azure.com
 basePath: /
 schemes:
@@ -47,30 +48,17 @@ paths:
           description: OK
       tags:
       - Autoscaletings
-    delete:
-      summary: Autoscale Settings Delete
-      description: Deletes and autoscale setting
-      operationId: AutoscaleSettings_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettingsautoscalesettingname-delete
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Autoscaletings
-    get:
-      summary: Autoscale Settings Get
-      description: Gets an autoscale setting
-      operationId: AutoscaleSettings_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightsautoscalesettingsautoscalesettingname-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Autoscaletings
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
